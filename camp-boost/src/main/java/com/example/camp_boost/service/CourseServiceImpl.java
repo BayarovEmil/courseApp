@@ -18,7 +18,6 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class CourseServiceImpl implements CourseService {
-    private final CourseRepo courseRepo;
     private final CourseMapper courseMapper;
     private final MyCourseRepository myCourseRepository;
 
